@@ -48,7 +48,7 @@ After its 2025 demerger, Tata Motors Ltd (TMCV) became a pure commercial-vehicle
 
 ## Challenging the assumptions
 
-The number at the end is only as good as the assumptions behind it, so this is where most of the work went (detail in [`docs/methodology.md`](docs/methodology.md)):
+The number at the end is only as good as the assumptions behind it, so this is where most of the work went
 
 1. **Comps first, DCF as the sanity check.** This follows sell-side convention. The DCF uses Gordon growth only, so the intrinsic check doesn't quietly borrow a market multiple.
 2. **Peers that are genuinely comparable.** After the demerger, only three listed companies truly compete with TMCV. I left out the passenger-vehicle makers rather than pad the peer set.
@@ -82,8 +82,6 @@ Laid out **Cover → Outputs → Inputs → Model**, vertically stacked in CFI f
 - **DCF cross-check** — stub-period and mid-year discounting, cash rolled forward to the valuation date, a 12-month roll-forward and two live sensitivity grids.
 - **12 automated model checks** on the Cover, from balance-sheet integrity to terminal-value share and DCF tolerance.
 
-See [`docs/model-guide.md`](docs/model-guide.md) for a sheet-by-sheet map.
-
 ---
 
 ## Reusing the templates
@@ -99,7 +97,7 @@ I turned the work into templates so the next company starts from a stronger base
 
 ## How this was built
 
-Primary sources came first — audited annual reports, exchange filings and results — with Screener and broker research used as secondary sources and cross-checks (see [`docs/data-sources.md`](docs/data-sources.md)).
+Primary sources came first — audited annual reports, exchange filings and results — with Screener and broker research used as secondary sources and cross-checks
 
 I developed the model and report with an AI-assisted workflow, then reviewed, challenged and validated every input, assumption and output: formula consistency across all forecast columns, three-statement ties in every scenario, and an independent recomputation of the DCF. It's the same discipline of structured validation I apply to research work day to day.
 
@@ -111,4 +109,4 @@ If you work in equity research, valuation or financial analysis, I'd value your 
 This is an independent educational project prepared from publicly available information. It is not issued by a SEBI-registered research analyst, is not investment advice, and is not an offer or solicitation to buy or sell any security. Information is believed reliable but is not guaranteed.
 
 ## License
-Content is shared under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — free to use and adapt for non-commercial purposes, with attribution.
+Content is shared under [CC BY-NC 4.0]— free to use and adapt for non-commercial purposes, with attribution.
