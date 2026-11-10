@@ -6,7 +6,6 @@ This repository is my attempt to answer that question the way a sell-side analys
 
 > Educational project based solely on public information. Ratings and target values are illustrative and are **not investment advice**.
 
-<p align="center"><img src="assets/report_cover-01.png" width="520" alt="Report front page"></p>
 
 ---
 
@@ -34,15 +33,9 @@ After its 2025 demerger, Tata Motors Ltd (TMCV) became a pure commercial-vehicle
 
 ## Valuation snapshot
 
-<p align="center"><img src="assets/ex_ff.png" width="640" alt="Football field"></p>
-
 - **Primary — trading comparables (FY28E):** 12.7x EV/EBITDA and 19.8x P/E, a 10% discount to the median of Ashok Leyland, M&M and SML Mahindra, weighted 50/50 → **₹440**.
 - **Sanity check — FCFF DCF:** WACC 12.6% (Rf 7.12%, ERP 5.2%, β 1.20), terminal growth 5.0%, Gordon-growth terminal value → ₹366, within my ±20% tolerance.
 - **Scenarios:** bull ₹510 / base ₹440 / bear ₹330; probability-weighted value ≈ ₹430.
-
-| Peer multiples (FY28E) | Margin scenarios |
-|:--:|:--:|
-| <img src="assets/ex_peers.png" width="400"> | <img src="assets/ex_margin_scen.png" width="400"> |
 
 ---
 
