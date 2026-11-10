@@ -4,7 +4,6 @@
 
 > Educational project based solely on public information. Ratings and target values are illustrative and are **not investment advice**.
 
-<p align="center"><img src="assets/report_cover-01.png" width="520" alt="Report front page"></p>
 
 ---
 
@@ -28,15 +27,11 @@
 
 ## Valuation snapshot
 
-<p align="center"><img src="assets/ex_ff.png" width="640" alt="Football field"></p>
 
 - **Primary — trading comparables (FY28E):** 12.7x EV/EBITDA and 19.8x P/E, a 10% discount to the median of Ashok Leyland, M&M and SML Mahindra, weighted 50/50 → **₹440**.
 - **Cross-check — FCFF DCF:** WACC 12.6% (Rf 7.12%, ERP 5.2%, β 1.20), g 5.0%, Gordon-growth terminal value → ₹366 (within the ±20% tolerance).
 - **Scenarios:** bull ₹510 / base ₹440 / bear ₹330; probability-weighted ≈ ₹430.
 
-| Peer multiples (FY28E) | Margin scenarios |
-|:--:|:--:|
-| <img src="assets/ex_peers.png" width="400"> | <img src="assets/ex_margin_scen.png" width="400"> |
 
 ---
 
@@ -61,13 +56,12 @@
 - **DCF cross-check** — stub-period and mid-year discounting, cash rolled to the valuation date, 12-month roll-forward, two live sensitivity grids.
 - **12 automated model checks** on the Cover (balance sheet, terminal value share, peer count, DCF tolerance, weights…).
 
-See [`docs/model-guide.md`](docs/model-guide.md) for a sheet-by-sheet map.
 
 ---
 
 ## Judgement calls worth reading
 
-The interesting part of any model is the assumptions behind it. A few that mattered here (detail in [`docs/methodology.md`](docs/methodology.md)):
+The interesting part of any model is the assumptions behind it. A few that mattered here
 
 1. **Comps primary, DCF as the sanity check** — the sell-side convention; the DCF uses Gordon growth only so the intrinsic check doesn't borrow a market multiple.
 2. **Peer selection** — only three listed companies are genuinely comparable after the 2025 demerger left TMCV a pure CV business; passenger-vehicle makers were deliberately excluded.
@@ -91,10 +85,10 @@ The interesting part of any model is the assumptions behind it. A few that matte
 
 ## How this was built
 
-Primary sources first — audited annual reports, exchange filings and results — with Screener and broker research as secondary sources and cross-checks (see [`docs/data-sources.md`](docs/data-sources.md)). The model and report were developed with an AI-assisted workflow; every input, assumption and output was reviewed, challenged and validated by the author, and the model was audited for formula consistency, statement ties and an independent DCF recomputation.
+Primary sources first — audited annual reports, exchange filings and results — with Screener and broker research as secondary sources and cross-checks. The model and report were developed with an AI-assisted workflow; every input, assumption and output was reviewed, challenged and validated by the author, and the model was audited for formula consistency, statement ties and an independent DCF recomputation.
 
 ## Disclaimer
 This is an independent educational project prepared from publicly available information. It is not issued by a SEBI-registered research analyst, is not investment advice, and is not an offer or solicitation to buy or sell any security. Information is believed reliable but is not guaranteed.
 
 ## License
-Content is shared under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) — free to use and adapt for non-commercial purposes with attribution.
+Content is shared under [CC BY-NC 4.0] — free to use and adapt for non-commercial purposes with attribution.
